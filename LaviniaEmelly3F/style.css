@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 700px;
+    top: 300px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.modal-conteiner{
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #ffff;
+    width: 500px;
+    height: 400px;
+    flex-direction: column;
+}
+.modal-conteiner h1{
+    padding-top: 20px;
+}
+form{
+    display: flex;
+    padding-top: 20px ;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 9px;
+    border: 2px solid #000;
+    width: 400px;
+    height: 35px;
+}
+.btns{
+    padding-top: 20px ;
+    display: flex;
+    gap: 100px;
+}
+.close{
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    color: #ffff;
+    cursor: pointer;
+    background-color: #000;
+}
+.btns .enviar{
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #ffff;
+}
+input::placeholder{
+    font-weight: 700;
+    color: #000;
+    font-size: 16px;
+    padding-left: 10px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+}
+.title h1{
+    font-weight: 500;
+}
+.title h2{
+    font-weight: 300;
+}
+nav{
+    cursor: pointer;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+nav a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+nav button{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    cursor: pointer;
+}
+.img{
+    position:relative;
+}
+.coracao{
+    position: absolute;
+    z-index: 1;
+}
+.cor1{
+    bottom: 330px;
+    left: 290px;
+}
+.cor2{
+    left: 290px;
+    bottom: -75px;
+}
+.cor3{
+    left: 720px;
+    bottom: -75px;
+}
+.cor4{
+    right: 630px;
+    bottom: -65px;
+}
+.box1, .box7{
+    display: flex;
+    gap: 20px;
+}
+.box3{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+footer{
+    gap: 30px;
+    display: flex;
+    height: 250px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    gap: 40px;
+}
